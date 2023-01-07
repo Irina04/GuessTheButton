@@ -2,6 +2,7 @@ let n = 3
 
 let winningButton;
  winningButton = winningButton ? winningButton : Math.floor(Math.random() * n);
+
 const onClick = function() {
   if (winningButton == this.id) { 
    document.getElementById("guessthebutton-text").innerHTML = "You have pressed the winning button!"
